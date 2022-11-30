@@ -19,7 +19,7 @@ def pesquisa_google(navegador):
     navegador.get("https://www.google.com/")
     # 4-Localização da barra de pesquisa do google, usando, como seu localizador, o seu Xpath, com a função"find_elements" do selenium
     # 5-Depois de localizar, o Bot escreve a palavra destinada a fazer a busca, no caso "Mamão" e clica em ENTER-RETURN, através da fução"send_keys"
-    navegador.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input').send_keys("Ballet", Keys.RETURN)
+    navegador.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input').send_keys("Mamão", Keys.RETURN)
 
 def resultado_pesquisa(navegador):
     # 6-Aqui é criado a lista, onde serão carregados os titulos
