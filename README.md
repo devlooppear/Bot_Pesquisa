@@ -5,9 +5,9 @@ Bot que escreve o que for requisitado, procura pra você e te retorna os título
 
 - Mais sobre: Foi usado o Chrome como navegador para as pesquisas; foi escolhido a palavra "Mamão" para ser pesquisada, mas caso queira falar para o Bot pesquisar outras coisas, como "Banana", na mesma região de pesquisa do quinto passo "#5" do arquivo "main.py", linha 19 do código, na função ".send_keys("Mamão", Keys.RETURN)" no código e vai te retornar os títulos em arquivo csv, é só trocar a palavra do que você quer pesquisar.
 
-- O arquivo que executa o código é o "main.py"
+- O arquivo que executa o código é o `main.py`
 
-- O arquivo output é o "test.csv", que irá retornar os valores dos titulos no arquivo csv e terminar sua execussão
+- O arquivo output é o "test.csv", que irá retornar os valores dos titulos no arquivo csv e terminar sua execussão tambem pode ser configurado na variavel de configuracao `OUPUT_FILE`
 
 ## Bibliotecas usadas
 
@@ -18,15 +18,6 @@ Bot que escreve o que for requisitado, procura pra você e te retorna os título
 | Command | Description |
 | --- | --- |
 | pip install -r requirements.txt | Irá instalar todas as biblíotecas necessárias |
-
-- Ou você pode ir no terminal e instalar as biblíotecas uma por uma, digitando: pip install selenium (Para instalar o Selenium), pip install webdriver-manager (Para instalar o webdriver manager) e pip install unidecode (Para instalar o Unidecode) e usando depois da escrita código, a tecla RETURN-ENTER.
-
-| Command | Description |
-| --- | --- |
-| pip install selenium | Irá instalar a biblíoteca selenium |
-| pip install webdriver-manager | Irá instalar a biblíoteca Webdriver Manager |
-| pip install unidecode | Irá instalar a biblíoteca Unidecode|
-
 
 ## Autor
 
